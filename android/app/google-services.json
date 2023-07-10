@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "945723430096",
+    "project_id": "manitosxpress",
+    "storage_bucket": "manitosxpress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945723430096:android:c4118ac68be44cc9f5fad5",
+        "android_client_info": {
+          "package_name": "com.ManitoXpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945723430096-aqc2h5n7nv77vb4h9m59h24ihqrdmh6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3-e7Y8TBP3uR6Muqoygg_ZpktgRzmJpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945723430096-aqc2h5n7nv77vb4h9m59h24ihqrdmh6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
