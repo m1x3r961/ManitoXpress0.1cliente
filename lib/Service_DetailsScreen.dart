@@ -51,14 +51,18 @@ class _ServiceFormPageState extends State<ServiceFormPage> {
         title: Text('Formulario de Servicio'),
       ),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(50.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const CircleAvatar(
+            CircleAvatar(
               radius: 75,
-              backgroundImage: NetworkImage(
-                  'https://media.giphy.com/media/3RUpczKmWUwRGfPQWB/giphy.gif'),
+              child: ClipOval(
+                child: Image.network(
+                  'https://media.giphy.com/media/3RUpczKmWUwRGfPQWB/giphy.gif',
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
             SizedBox(height: 8.0),
             Center(
